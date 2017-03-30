@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    int suhu;
+
+    cout<< "Suhu Celcius ";
+    cin>>suhu;
+
+    if(suhu<=10){
+        cout<< "Beku";
+    }else if(suhu>=11 && suhu<=90){
+        cout<< "Cair";
+    }else {cout<< "Uap";}
+
+    return 0;
+}
