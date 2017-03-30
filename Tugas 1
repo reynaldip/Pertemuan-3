@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+int main()
+
+{
+    int akhir;
+    int tes;
+    int uts;
+    int uas;
+    int tugas;
+
+    cout<< "Nilai Tes   : ";
+    cin>> tes;
+
+    cout<< "Nilai UTS   : ";
+    cin>> uts;
+
+    cout<< "Nilai UAS   : ";
+    cin>> uas;
+
+    cout<< "Nilai Tugas : ";
+    cin>> tugas;
+
+    akhir=(0.2*tes)+(0.3*uts)+(0.3*uas)+(0.2*tugas);
+
+    if (akhir<=50){
+        cout<< "D";}
+
+    else if (akhir>=51 && akhir<=70){
+        cout<< "C";}
+
+    else if (akhir>=71 && akhir<=80){
+        cout<< "B";}
+
+    else {cout<< "A";}
+
+    return 0;
+
+
+}
