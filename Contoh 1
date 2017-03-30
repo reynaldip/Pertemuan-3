@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    int bilangan;
+    int definisi_bilangan;
+
+    cout<< "Masukan bilangan :";
+    cin>> bilangan;
+
+    definisi_bilangan=bilangan%2;
+
+    if(definisi_bilangan==0){
+        cout<<"Bilangan Genap";
+    }else
+    {
+        cout<<"Bilangan Ganjil";}
+
+    return 0;
+
+}
